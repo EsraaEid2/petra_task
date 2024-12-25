@@ -12,7 +12,7 @@ class CategorySeeder extends Seeder
 {
     /**
      * Run the database seeds.
-     */
+    */
     public function run()
     {
         $category1 = Category::create(['name' => 'Electronics']);
